@@ -3,39 +3,42 @@ body {
   background-size: 200%;
   background-repeat: no-repeat;
   color: white;
+  font-family: "Merienda", cursive;
 }
 
 .search-form {
   display: block;
-  margin: 30px auto 15px;
+  margin: 30px auto 5px;
   background-color: rgba(0, 0, 0, 0.3);
   max-width: 600px;
-  padding: 20px 50px;
+  padding: 17px 50px;
   border-radius: 10px;
 }
 
 .search-city {
   font-size: 16px;
   border: none;
-  padding: 14px;
+  padding: 12px;
   padding-right: 250px;
   border-radius: 8px;
+  font-family: "Merienda", cursive;
 }
 .search-button {
   font-size: 16px;
   margin-left: 20px;
   border: none;
-  padding: 14px 25px;
+  padding: 12px 25px;
   border-radius: 8px;
+  font-family: "Merienda", cursive;
 }
 .city-name {
   text-align: center;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bolder;
   margin: 0px;
 }
 span.icon {
-  font-size: 150px;
+  font-size: 120px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -49,60 +52,69 @@ main {
   max-width: 700px;
   border-radius: 10px;
   position: relative;
-  top: -125px;
+  top: -120px;
 }
 
+.condition {
+  font-size: 25px;
+  padding-left: 15px;
+}
 .temprature {
-  font-size: 45px;
-  padding-left: 10px;
+  font-size: 30px;
+  position: relative;
+  left: 418px;
 }
 .unit {
-  font-size: 20px;
+  font-size: 16px;
   position: relative;
-  top: -20px;
+  top: -10px;
+  left: 418px;
 }
-.look {
-  font-size: 39px;
-  position: relative;
-  left: 385px;
+.date-detail {
+  padding-left: 15px;
+  padding-right: 15px;
+  border-top: 1px solid rgb(255, 255, 255, 0.3);
 }
+
 .day {
-  font-size: 20px;
-  text-align: left;
-  padding-left: 10px;
-  padding-top: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: left;
+  position: relative;
+  top: 15px;
 }
 .date {
-  font-size: 20px;
-  left: 280px;
+  font-size: 16px;
+  display: flex;
+  justify-content: right;
   position: relative;
-  top: -25px;
-  padding-right: 10px;
+  top: -15px;
 }
 
 .time {
   font-size: 70px;
-  text-align: center;
-
-  border-top: 1px solid rgb(255, 255, 255, 0.3);
+  display: flex;
+  justify-content: center;
 }
+
 .country {
-  font-size: 30px;
+  font-size: 28px;
   text-align: center;
   padding-bottom: 15px;
   border-bottom: 1px solid rgb(255, 255, 255, 0.3);
 }
 section {
-  padding: 10px 10px;
-  font-size: 20px;
+  padding: 15px 15px;
+  font-size: 17px;
 }
 .wind {
   position: relative;
-  left: 440px;
+  left: 420px;
 }
 footer {
+  font-size: 13px;
   display: flex;
   justify-content: center;
   position: relative;
-  top: -95px;
+  top: -105px;
 }
