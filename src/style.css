@@ -1,6 +1,8 @@
 body {
   background-image: url(https://www.boatus.com/-/media/expert-advice-archive/2018/april/cirrus-clouds.ashx?la=en&hash=18F09F936A226DB2B995A59A674B57AA);
-  background-size: 100%;
+  background-size: 200%;
+  background-repeat: no-repeat;
+  color: white;
 }
 
 .search-form {
@@ -31,41 +33,54 @@ body {
   font-size: 70px;
   font-weight: bolder;
   margin: 0px;
-  padding: 0px;
 }
-.icon {
-  display: block;
-  margin: 0 auto;
-  padding: 0px;
-  text-align: center;
-  font-size: 100%;
-  position: relative;
-  top: 20px;
+span.icon {
+  font-size: 150px;
+
+  display: flex;
+  justify-content: center;
 }
+
 main {
   display: block;
   margin: 0 auto;
-  padding: 0px;
+
   background-color: rgba(0, 0, 0, 0.3);
-  max-width: 600px;
-  padding: 20px 50px;
+  max-width: 700px;
   border-radius: 10px;
+  position: relative;
+  top: -85px;
 }
 
 .temprature {
-  margin: 0 auto;
-  font-size: 50px;
-  font-weight: bolde;
+  font-size: 45px;
+  padding-left: 10px;
 }
 .unit {
   font-size: 20px;
+  position: relative;
+  top: -20px;
 }
-
 .look {
-  font-size: 50px;
-
-  font-weight: bolde;
+  font-size: 39px;
+  position: relative;
+  left: 385px;
+}
+.time {
+  font-size: 70px;
+  text-align: center;
+  margin: 10px 0px;
+  padding: 0px;
+  border-top: 1px solid rgb(255, 255, 255, 0.3);
+}
+.date {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(255, 255, 255, 0.3);
 }
 footer {
   text-align: center;
+  margin: 0px;
+  padding: opx;
 }
