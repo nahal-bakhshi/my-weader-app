@@ -7,7 +7,7 @@ body {
 
 .search-form {
   display: block;
-  margin: 50px auto 15px;
+  margin: 30px auto 15px;
   background-color: rgba(0, 0, 0, 0.3);
   max-width: 600px;
   padding: 20px 50px;
@@ -36,20 +36,20 @@ body {
 }
 span.icon {
   font-size: 150px;
-
   display: flex;
   justify-content: center;
+  position: relative;
+  top: -35px;
 }
 
 main {
   display: block;
   margin: 0 auto;
-
   background-color: rgba(0, 0, 0, 0.3);
   max-width: 700px;
   border-radius: 10px;
   position: relative;
-  top: -85px;
+  top: -125px;
 }
 
 .temprature {
@@ -66,21 +66,43 @@ main {
   position: relative;
   left: 385px;
 }
-.time {
-  font-size: 70px;
-  text-align: center;
-  margin: 10px 0px;
-  padding: 0px;
-  border-top: 1px solid rgb(255, 255, 255, 0.3);
+.day {
+  font-size: 20px;
+  text-align: left;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 .date {
   font-size: 20px;
+  left: 280px;
+  position: relative;
+  top: -25px;
+  padding-right: 10px;
+}
+
+.time {
+  font-size: 70px;
+  text-align: center;
+
+  border-top: 1px solid rgb(255, 255, 255, 0.3);
+}
+.country {
+  font-size: 30px;
   text-align: center;
   padding-bottom: 15px;
   border-bottom: 1px solid rgb(255, 255, 255, 0.3);
 }
+section {
+  padding: 10px 10px;
+  font-size: 20px;
+}
+.wind {
+  position: relative;
+  left: 440px;
+}
 footer {
-  text-align: center;
-  margin: 0px;
-  padding: opx;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: -95px;
 }
