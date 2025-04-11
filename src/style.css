@@ -70,13 +70,13 @@ main {
 .temprature {
   font-size: 30px;
   position: relative;
-  left: 468px;
+  left: 482px;
 }
 .unit {
   font-size: 16px;
   position: relative;
   top: -10px;
-  left: 468px;
+  left: 480px;
 }
 .date-detail {
   padding-left: 15px;
