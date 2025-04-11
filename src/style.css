@@ -8,10 +8,10 @@ body {
 
 .search-form {
   display: block;
-  margin: 30px auto 5px;
+  margin: 30px auto 0px;
   background-color: rgba(0, 0, 0, 0.3);
   max-width: 600px;
-  padding: 17px 50px;
+  padding: 20px 50px;
   border-radius: 10px;
 }
 
@@ -36,6 +36,9 @@ body {
   font-size: 60px;
   font-weight: bolder;
   margin: 0px;
+  position: relative;
+  right: 100px;
+  top: 30px;
 }
 span.icon {
   width: 100%;
@@ -43,7 +46,8 @@ span.icon {
   display: flex;
   justify-content: center;
   position: relative;
-  top: -20px;
+  top: -115px;
+  left: 90px;
 }
 
 main {
@@ -53,7 +57,7 @@ main {
   max-width: 700px;
   border-radius: 10px;
   position: relative;
-  top: -120px;
+  top: -150px;
 }
 .temperature-detail {
   margin-bottom: 10px;
@@ -120,5 +124,8 @@ footer {
   display: flex;
   justify-content: center;
   position: relative;
-  top: -105px;
+  top: -135px;
+}
+.contact-me {
+  color: black;
 }
