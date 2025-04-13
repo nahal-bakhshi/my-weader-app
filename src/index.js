@@ -50,7 +50,10 @@ function detaildata(response) {
   let currentwind = document.querySelector("#wind");
   let currenttime = document.querySelector("#time");
   let currenticon = document.querySelector("#icon");
-  console.log(response.data.condition.icon_url);
+  let unit = `°C`;
+  let currentunit = document.querySelector("#unit");
+
+  currentunit.innerHTML = unit;
   currenticon.innerHTML = `<img src="${response.data.condition.icon_url}"/>`;
   currentcity.innerHTML = response.data.city;
   currenttime.innerHTML = formattime(nowdate);
@@ -62,7 +65,6 @@ function detaildata(response) {
   currentcountry.innerHTML = response.data.country;
   currenthiumidity.innerHTML = `Humidity ${response.data.temperature.humidity}%`;
   currentwind.innerHTML = `Wind speed ${response.data.wind.speed} Km/h`;
-  console.log(response);
 }
 
 function searchcity(city) {
@@ -77,6 +79,7 @@ function searchsubmit(event) {
 
   searchcity(cityelement.value);
 }
+
 let searchform = document.querySelector("#search-form");
 searchform.addEventListener("submit", searchsubmit);
 
